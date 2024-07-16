@@ -1,5 +1,5 @@
 from moviepy.editor import *
-video = VideoFileClip("C:/Users/Admin/Downloads/Video/Top 100 Songs From 60's - 60's के हिट गाने - HD Songs - All Songs From 60's - Lata M -Kishore Kumar.mp4")
+video = VideoFileClip("Paste your video full path HERE with \".mp4\" at the end")
 
 # Extract audio from video
-video.audio.write_audiofile("C:/Users/Admin/Downloads/Video/Top 100 Songs From 60's.mp3")
+video.audio.write_audiofile("Paste your full path where you wanna save your audio file HERE with \".mp3\" ")
